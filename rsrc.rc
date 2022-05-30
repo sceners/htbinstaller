@@ -1,0 +1,24 @@
+//--------------------------------------------------
+//
+// Resource file for project HtbInstall
+//
+//--------------------------------------------------
+#include	<resource.h>
+
+
+1000 DIALOGEX -3, 9, 450,300
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | DS_3DLOOK
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 6, "MS Sans Serif"
+BEGIN
+    EDITTEXT        100, 0, 0, 450, 300, ES_MULTILINE | NOT WS_BORDER | WS_VSCROLL | NOT WS_TABSTOP,WS_EX_STATICEDGE
+END
+
+999	ICON	"res\htb.ico"
+101	RCDATA	"res\htb.fnt"
+103	RCDATA	"res\music.xm"
+104 RCDATA	"res\logo.jpg"
+
+
+
+
